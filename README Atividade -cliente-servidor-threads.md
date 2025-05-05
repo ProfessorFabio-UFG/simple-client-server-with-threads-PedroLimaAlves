@@ -1,12 +1,14 @@
 Pedro Henrique Lima – 202206799
 
 a) usando threads apenas no servidor
+
 Código servidor_threads.py:
 import socket
 import threading
 import time
 
 def handle_client(conn, addr):
+
     print(f"Conexão de {addr}")
     data = conn.recv(1024).decode()
     if not data:
