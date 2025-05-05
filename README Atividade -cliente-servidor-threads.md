@@ -1,7 +1,9 @@
 Pedro Henrique Lima – 202206799
 
 a) usando threads apenas no servidor
+
 Código servidor_threads.py:
+
 import socket
 import threading
 import time
@@ -64,6 +66,7 @@ Resultado: 10.0
 b) usando threads no cliente e no servidor.
 
 Código servidor_threads.py:
+
 import socket
 import threading
 import time
